@@ -16,8 +16,8 @@ const CounterDate = () => {
         const limitDate = new Date('Dec 1 2022');
         const date = (limitDate - nowDate)/1000;  // secods to limitDate
         const daysFormula = 60 * 60 * 24; // seconds, minutes, hours per day;
-        const hoursFormula = 60 * 60; // seconds, minutes, hours per day;
-        const minutesFormula = 60; // seconds, minutes, hours per day;
+        const hoursFormula = 60 * 60; // seconds, minutes per hour;
+        const minutesFormula = 60; // seconds per minute;
 
         const remainingDays = date / daysFormula; 
         const remainingHours = ( date % daysFormula ) / hoursFormula;
