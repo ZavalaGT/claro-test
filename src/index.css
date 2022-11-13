@@ -19,9 +19,16 @@ Body {
   margin: 0 !important;
 }
 
-
 .footer {
   background-color: black;
   min-height: 75px;
   width: 100%;
+}
+
+.main-background {
+  background-image: url('assets/img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 65vh;
 }

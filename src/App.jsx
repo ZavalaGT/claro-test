@@ -1,10 +1,11 @@
 import Layout from './layout/Layout';
+import HomePage from './pages/Home';
 
 export default function App() {
   return (
     <>
     <Layout>
-      <h1>Se puede ver</h1>
+      <HomePage />
     </Layout>
     
     </>

@@ -8,7 +8,7 @@ const Layout = (props) => {
         <>
             <Header></Header>
             <main>
-                    <Box minHeight={'92vh'} sx={{ marginTop:'75px'}}>
+                    <Box minHeight={'92vh'} sx={{ marginTop:'48px'}}>
                         {
                             props.children
                         }
