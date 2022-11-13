@@ -32,7 +32,7 @@ Body {
 .main-background {
   background-image: url('assets/img/background.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -46,10 +46,18 @@ Body {
   align-content: center;
 }
 
-.icon-logo {
-  max-height: 40px;
+.logo {
+  max-height: 35px;
   border-radius: 3px;
   padding: 5px;
+}
+
+.icon-logo {
+  max-height: 30px;
+  width: 25px;
+  border-radius: 3px;
+  padding: 5px;
+  aspect-ratio: 1/1;
 }
 
 .mobil {

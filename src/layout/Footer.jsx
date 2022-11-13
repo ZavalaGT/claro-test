@@ -15,12 +15,14 @@ const Footer = () => {
                         </Typography>
                     </Grid>
                     <Grid item xs={11} md={4} className={'vh-center'}>
-                        <img src={'src/assets/img/logo-sochi.png'} alt={'logo-sochi'} className={'icon-logo'} />
+                        <img src={'src/assets/img/logo-sochi.png'} alt={'logo-sochi'} className={'logo'} />
                     </Grid>
                     <Grid item xs={11} md={4} className={'vh-center'}>
-                        <Grid container justifyContent={'center'}>
+                        <Grid container justifyContent={'center'} spacing={{sx:1, md:1}}>
                             <Grid item xs={2} md={2} className={'vh-center'}>
-                                <img src={'src/assets/img/mobli-icon.png'} alt={'logo-sochi'} className={'icon-logo mobil'} />
+                                <Box className={'icon-logo mobil vh-center'}>
+                                    <img src={'src/assets/img/mobli-icon.png'} alt={'logo-sochi'} sx={{width:'24px', height:'24px'}} />
+                                </Box>
                             </Grid>
                             <Grid item xs={2} md={2} className={'vh-center'}>
                                 <Box className={'icon-logo twitter vh-center'}>

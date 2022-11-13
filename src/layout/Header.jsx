@@ -13,10 +13,10 @@ const Header = (props) => {
                 <Container maxWidth='md'>
                     <Box display={'flex'} justifyContent='space-between'>
                         <Box flex={'0 0'}>
-                            <img src={'src/assets/img/logo-sochi.png'} alt={'logo-sochi'} className={'icon-logo'} />
+                            <img src={'src/assets/img/logo-sochi.png'} alt={'logo-sochi'} className={'logo'} />
                         </Box>
                         <Box flex={'0 0'}>
-                            <img src={'src/assets/img/logo-claro-sports.png'} alt={'logo-claro-sports'} className={'icon-logo'} />
+                            <img src={'src/assets/img/logo-claro-sports.png'} alt={'logo-claro-sports'} className={'logo'} />
                         </Box>
                     </Box>
                 </Container>
