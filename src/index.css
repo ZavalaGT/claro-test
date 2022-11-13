@@ -30,5 +30,7 @@ Body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
