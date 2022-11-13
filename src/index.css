@@ -21,8 +21,12 @@ Body {
 
 .footer {
   background-color: black;
-  min-height: 75px;
+  min-height: 50px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .main-background {
@@ -33,4 +37,33 @@ Body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.vh-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.icon-logo {
+  max-height: 40px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.mobil {
+  background-color: aqua;
+}
+
+.twitter {
+  background-color: aqua;
+}
+
+.facebook {
+  background-color: blue;
+}
+
+.youtube {
+  background-color: red;
 }
