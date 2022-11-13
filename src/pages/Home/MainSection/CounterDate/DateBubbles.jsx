@@ -10,10 +10,10 @@ const DateBubble = ( { name, value } ) => {
             sx={{aspectRatio:'1/1'}}
             >
                 <Box width={'80%'}>
-                    <Typography variant="body1" component={'p'} lineHeight='1'>
+                    <Typography variant="body1" component={'p'} fontWeight='bold' lineHeight='1'>
                         { value ?? "00" }
                     </Typography>
-                    <Typography variant="body1" component={'p'} lineHeight='1'>
+                    <Typography variant="body1" component={'p'} fontWeight='bold' lineHeight='1'>
                         { name ?? "DÍAS" }
                     </Typography>
                 </Box>
