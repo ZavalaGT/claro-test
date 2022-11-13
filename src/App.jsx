@@ -1,13 +1,13 @@
+import Layout from './layout/Layout';
 
-import './App.css'
-
-function App() {
-
+export default function App() {
   return (
-    <div className="App">
-
-    </div>
-  )
+    <>
+    <Layout>
+      <h1>Se puede ver</h1>
+    </Layout>
+    
+    </>
+  );
 }
 
-export default App
