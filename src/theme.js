@@ -14,6 +14,15 @@ const theme = createTheme({
       main: red.A400,
     },
   },
+  components: {
+    MuiTypography:{
+      styleOverrides:{
+        root:{
+          fontFamily:'Exo',
+        }
+      }
+    }
+  },
 });
 
 export default theme;

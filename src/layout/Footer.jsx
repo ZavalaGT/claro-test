@@ -10,7 +10,7 @@ const Footer = () => {
             <Container maxWidth={'md'}>
                 <Grid my={2} container justifyContent={'center'}>
                     <Grid item xs={11} md={4} className={'vh-center'} sx={{justifyContent:{xs:'center', md:'left'}}}>
-                        <Typography variant={"caption"} component={'p'}>
+                        <Typography variant={"caption"} component={'p'} sx={{cursor:'pointer'}}>
                             Aviso de privacidad / Contacto
                         </Typography>
                     </Grid>

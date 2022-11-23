@@ -6,16 +6,20 @@ import Bubbles from "./Bubbles";
 const videoBubbleList = [
     {   imgSrc:'src/assets/img/team-latam.png', 
         title: 'TEAM LATAM', 
-        description:'Los deportistas latinoamericanos que participan en Sochi 2014' },
+        description:'Los deportistas latinoamericanos que participan en Sochi 2014',
+        url:'bhwazePeXm8', },
     {   imgSrc:'src/assets/img/travel-meets-fashion.png', 
         title: 'TRAVEL MEETS FASHION',
-        description:'Los deportistas latinoamericanos que participan en Sochi 2014'  },
+        description:'Los deportistas latinoamericanos que participan en Sochi 2014',
+        url:'UomdFp8DNys',  },
     {   imgSrc:'src/assets/img/velocidad-riesgo.png', 
         title: 'VELOCIDAD RIESGO',
-        description:'Los deportistas latinoamericanos que participan en Sochi 2014' }, 
+        description:'Los deportistas latinoamericanos que participan en Sochi 2014',
+        url:'GZbU3zvTTG8', }, 
     {   imgSrc:'src/assets/img/experiencia.png', 
         title: 'EXPERIENCIA',
-        description:'Los deportistas latinoamericanos que participan en Sochi 2014'  },
+        description:'Los deportistas latinoamericanos que participan en Sochi 2014',
+        url:'w7tPeY3bNyY',  },
 ];
 
 const BubbleSection = ( ) => {

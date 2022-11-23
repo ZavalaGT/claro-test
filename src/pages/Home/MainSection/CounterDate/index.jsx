@@ -84,7 +84,7 @@ const CounterDate = () => {
         <Box width={'100%'} my={3}>
             <Grid container justifyContent={'center'}>
                 <Grid item xs={8} sm={6} md={4} lg={3} textAlign='center'>
-                    <Typography variant="h4" component={"p"} fontWeight='bold'>
+                    <Typography variant="h4" component={"p"} fontWeight='bold' my={2}>
                         Faltan
                     </Typography>
                     <Grid container justifyContent={'center'} spacing={{xs:1 ,sm:2, md:2, lg:3}}>
