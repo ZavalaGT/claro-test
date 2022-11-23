@@ -9,7 +9,7 @@ Una vez que el proyecto ha sido clonado o copiado desde el repositorio y se requ
 ```
 npm install
 ```
-### Arrgaque del prouecto
+### Arrgaque del proyecto
 Una vez instaladas las dependencias, correr el proyecto con el siguiente comando:
 ```
 npm run dev
